@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/amitroy5817.github.io/static/css/main.a9a20306.css",
+    "main.js": "/amitroy5817.github.io/static/js/main.0c03653d.js",
+    "static/js/453.acca0757.chunk.js": "/amitroy5817.github.io/static/js/453.acca0757.chunk.js",
+    "static/media/display-picture.png": "/amitroy5817.github.io/static/media/display-picture.ca8f76a8190c41daa9be.png",
+    "index.html": "/amitroy5817.github.io/index.html",
+    "main.a9a20306.css.map": "/amitroy5817.github.io/static/css/main.a9a20306.css.map",
+    "main.0c03653d.js.map": "/amitroy5817.github.io/static/js/main.0c03653d.js.map",
+    "453.acca0757.chunk.js.map": "/amitroy5817.github.io/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9a20306.css",
+    "static/js/main.0c03653d.js"
+  ]
+}
