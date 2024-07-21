@@ -75,6 +75,16 @@ section{
 #about p svg{
   height: 25px;
   fill: black;
+  animation: flow 1s infinite alternate;
+  transition: all;
+}
+@keyframes flow {
+  from{
+    transform: translateY(-2px);
+  }
+  to{
+    transform: translateY(1px);
+  }
 }
 .section-heading span{
  font-weight: 300;
