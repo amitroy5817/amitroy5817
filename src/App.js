@@ -56,7 +56,7 @@ function App() {
       <img src={picture} alt="display picture" />
       <p>Hello ! <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M40.1 467.1l-11.2 9c-3.2 2.5-7.1 3.9-11.1 3.9C8 480 0 472 0 462.2L0 192C0 86 86 0 192 0S384 86 384 192l0 270.2c0 9.8-8 17.8-17.8 17.8c-4 0-7.9-1.4-11.1-3.9l-11.2-9c-13.4-10.7-32.8-9-44.1 3.9L269.3 506c-3.3 3.8-8.2 6-13.3 6s-9.9-2.2-13.3-6l-26.6-30.5c-12.7-14.6-35.4-14.6-48.2 0L141.3 506c-3.3 3.8-8.2 6-13.3 6s-9.9-2.2-13.3-6L84.2 471c-11.3-12.9-30.7-14.6-44.1-3.9zM160 192a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm96 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg><br/>
       My name is Amit. I am a Software Engineering student at GCELT (Government College of Engineering and Leather Technology), 
-      I am good at frontend development and I am also interested to explore Full Stack Development. My interest in Development 
+      I am good at <b>UI/UX Design</b> and <b>frontend development</b> and I am also interested to explore Full Stack Development. My interest in Development 
       started back when i was in my 8th standard, when the android was completely new for me.</p><p>Interested in Creating Things.</p><p>Not a Professional but a Passionate.</p>
       <p>Currently working @ nowhere</p>
       <p><a href='https://drive.google.com/file/d/1tRviVOT3NxLErK4p8ia4O5OHZ_qEQn9t/view?usp=sharing' className='download-cv'>Download CV</a></p>
@@ -82,15 +82,23 @@ code. Built using <b>ReactJS</b> and <b>Firebase</b>
       <section id='skills'>
       <h2 className='section-heading'><span>03. </span>skills</h2>
       <p>Here are few technologies i’ve been into
+      </p>
+        <div className="skill-header"><b>TECHNICAL SKILLS</b></div>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
+          <li>SCSS</li>
           <li>Javascript</li>
           <li>ReactJS</li>
           <li>C lang</li>
           <li>Java</li>
         </ul>
-      </p>
+        <div className="skill-header"><b>TOOLS</b></div>
+        <ul>
+          <li>Github</li>
+          <li>Adobe XD</li>
+          <li>Figma</li>
+        </ul>
       </section>
       <section id='contact'>
       <h2 className='section-heading'><span>04. </span>contact</h2>
@@ -99,6 +107,7 @@ code. Built using <b>ReactJS</b> and <b>Firebase</b>
         <a href="mailto:amitroy.thedev@gmail.com?subject=Hello" class="email-button">Say Hello<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376l0 103.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg></a>
       </div>
       </section>
+      <div className="copyright">Made by <span>Amit</span></div>
     </div>
   );
 }

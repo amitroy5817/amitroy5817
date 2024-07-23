@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Handjet:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -126,13 +126,14 @@ text-decoration: underline;
   font-size: 18px;
 
 }
-#skills ul{
+.skill-header{
   margin-top: 18px;
+}
+#skills ul{
   display: flex;
   flex-direction: column;
-  
 }
-#skills ul li::before{
+#skills ul li::before, .skill-header::before{
   content: "";
   position: relative;
   width: 0;
@@ -143,6 +144,11 @@ text-decoration: underline;
   display: inline-block;
   margin-right: 10px;
   top: -2px;
+}
+.skill-header::before{
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid black;
 }
 #skills ul li{
   margin-top: 5px;
@@ -182,7 +188,13 @@ text-decoration: underline;
   flex-direction: column;
   margin: 50px 0;
 }
-
+.copyright{
+  text-align: center;
+}
+.copyright span{
+  font-family: 'Allura', sans-serif;
+  font-size: 25px;
+}
 @media screen and (max-width: 720px) {
   section{
     height: fit-content;
